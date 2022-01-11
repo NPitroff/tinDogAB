@@ -62,7 +62,8 @@ p {
   vertical-align: middle;
   transform: rotate(25deg);
   margin: 3.125rem;
-  width: 60%;
+  width: 25%;
+  position:absolute;
 }
 
 #title {
@@ -74,6 +75,9 @@ p {
 
 .feature-section{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-section h3{
