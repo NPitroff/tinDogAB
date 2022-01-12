@@ -60,12 +60,9 @@ p {
 /* Title Image */
 .iphone {
   transform: rotate(25deg);
-  
   position:absolute;
   padding:1rem;
 }
-
-
 
 #title {
   background-color: #ff4c68;
@@ -135,4 +132,16 @@ p {
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
 }
