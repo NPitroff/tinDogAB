@@ -17,11 +17,11 @@ h2 {
 }
 
 p {
-  color:#8f8f8f
+  color:#8f8f8f;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navbar */
@@ -59,12 +59,13 @@ p {
 
 /* Title Image */
 .iphone {
-  vertical-align: middle;
   transform: rotate(25deg);
-  margin: 3.125rem;
-  width: 25%;
+  
   position:absolute;
+  padding:1rem;
 }
+
+
 
 #title {
   background-color: #ff4c68;
