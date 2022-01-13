@@ -2,10 +2,8 @@ body{
   font-family: 'Montserrat';
 }
 
-h1 {
+h1, h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
   font-weight: 900;
 }
 
@@ -18,6 +16,11 @@ h2 {
 
 p {
   color:#8f8f8f;
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .container-fluid {
@@ -146,6 +149,13 @@ p {
   padding: 3% 2%;
 }
 
+.tier-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight:900;
+}
+
 /* Call to Action */
 
 #cta{
@@ -153,7 +163,7 @@ p {
   color: white;
 }
 
-h3{
+.cta-text{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
